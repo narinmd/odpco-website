@@ -4,6 +4,7 @@ import React, { useActionState, useState, useEffect } from "react";
 import { Send, CheckCircle2 } from "lucide-react";
 import { validateConsultationForm } from "@/utils/validation";
 import { submitConsultationForm } from "@/app/actions/sendEmail";
+import Link from "next/link";
 
 export default function CustomerForm() {
   const [formState, formAction, isPending] = useActionState(
@@ -34,12 +35,19 @@ export default function CustomerForm() {
 
   return (
     <div className="p-5 shadow-sm rounded-sm bg-white">
-      <h3 className="text-[length:var(--fs-h2)] mb-[24px] text-[var(--brand-blue)] lg:text-start text-center">
+      <h3 className="text-[length:var(--fs-h2)] mb-[24px] text-[var(--brand-blue)] lg:text-start text-center ">
         Request a Consultation
       </h3>
 
+      <Link
+        href="https://oportal.ir/portal"
+        className="text-[var(--brand-blue-hover)] underline hover:text-[var(--brand-blue)] mb-5 inline-block"
+      >
+        ODPCO Customer Portal
+      </Link>
+
       {showSuccess ? (
-        <div className="flex flex-col items-center justify-center text-center py-8">
+        <div className="flex flex-col items-center justify-center text-center py-8 ">
           <CheckCircle2 className="w-12 h-12 mb-5 text-green-800 mx-auto" />
 
           <h3 className="text-[length:var(--fs-h3)] font-[var(--fw-semibold)] text-green-800 mb-1 text-lg">

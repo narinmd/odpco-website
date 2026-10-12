@@ -63,7 +63,6 @@ export default function DesktopNavigation() {
                   icon={<GalleryVerticalEnd size={18} strokeWidth={1.5} />}
                   href="/services"
                   className="hover:bg-[var(--brand-light-gray)] rounded-sm"
-                  linkFullWidth="col-span-full"
                 >
                   Explore all our IT services
                 </ListItem>
@@ -112,17 +111,9 @@ export default function DesktopNavigation() {
   );
 }
 
-function ListItem({
-  title,
-  icon,
-  children,
-  href,
-  className,
-  linkFullWidth,
-  ...props
-}) {
+function ListItem({ title, icon, children, href, className, ...props }) {
   return (
-    <li className={linkFullWidth}>
+    <li>
       <NavigationMenuLink asChild>
         <Link
           href={href}

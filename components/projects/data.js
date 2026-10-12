@@ -123,4 +123,71 @@ export const PROJECTS = [
     date: "2026",
     featured: false,
   },
+  //Software
+  {
+    id: 11,
+    company: "Statistical Center of Iran",
+    slug: "statistical-center-of-iran-database-bi",
+    category: ["Software"],
+    image: "/images/projects/bi.webp",
+    shortDescription:
+      "Database management, ETL processes, and Business Intelligence solutions using Power BI.",
+    description:
+      "From managing Oracle and SQL Server databases to building enterprise data warehouses and ETL pipelines, we handled the entire data lifecycle. We also designed interactive Power BI dashboards so the company could easily track performance and make data-driven decisions.",
+    date: "2025",
+    featured: false,
+  },
+  {
+    id: 12,
+    company: "Tavanir Company",
+    slug: "tavanir-company-oracle-database",
+    category: ["Software"],
+    image: "/images/projects/db.webp",
+    shortDescription:
+      "Expert-level Oracle database administration, performance tuning, and security optimization.",
+    description:
+      "We provided full support for their Oracle databases. We solved performance issues by optimizing SQL queries and fixing database locks. To guarantee that the system never goes down, we also installed and configured Oracle RAC and Data Guard.",
+    date: "2025",
+    featured: true,
+  },
+  {
+    id: 13,
+    company: "Statistical Center of Iran",
+    slug: "statistical-center-of-iran-enterprise-software",
+    category: ["Software"],
+    image: "/images/projects/software-dev.webp",
+    shortDescription:
+      "End-to-end development, maintenance, and technical support for enterprise web applications.",
+    description:
+      "Development and maintenance of enterprise-level web applications and software services. Key responsibilities included managing user access, continuous software troubleshooting, and implementing technical improvements to ensure highly reliable and efficient organizational systems.",
+    date: "2025",
+    featured: true,
+  },
+
+  // {
+  //   id: 14,
+  //   company: "Enterprise Operations & KPI Monitoring",
+  //   slug: "enterprise-operations-kpi-monitoring-1",
+  //   category: ["Software Development", "Business Intelligence"],
+  //   image: "/images/projects/kpi-dashboard-1.webp",
+  //   shortDescription:
+  //     "Development of a comprehensive platform for monitoring enterprise operations and KPIs.",
+  //   description:
+  //     "An enterprise-level platform designed to track, manage, and visualize key performance indicators (KPIs) and daily operational metrics. (Additional details to be provided).",
+  //   date: "2026",
+  //   featured: false,
+  // },
+  // {
+  //   id: 15,
+  //   company: "Enterprise Operations & KPI Monitoring",
+  //   slug: "enterprise-operations-kpi-monitoring-2",
+  //   category: ["Software Development", "Business Intelligence"],
+  //   image: "/images/projects/kpi-dashboard-2.webp",
+  //   shortDescription:
+  //     "Advanced platform development for tracking and analyzing organizational performance.",
+  //   description:
+  //     "A scalable software solution developed to monitor operational workflows and analyze business performance through centralized KPI tracking. (Additional details to be provided).",
+  //   date: "2026",
+  //   featured: false,
+  // },
 ];

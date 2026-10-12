@@ -12,8 +12,7 @@ const Footer = async (props) => {
     copyright = (
       <>
         {" "}
-        © <CurrentYear />
-        ODPCO, All Rights Reserved.
+        © <CurrentYear /> ODPCO. All rights reserved.
       </>
     ),
     credit = "Designed & Developed by Narin Madadi",

@@ -151,6 +151,28 @@ export const HERO_DATA = {
     theme: "light",
   },
 
+  "software-ai-services": {
+    title: "Software & AI Services",
+    description: "Design and develop software and AI-powered solutions",
+    image: "/images/hero/software.webp",
+    imageAlt: "software & AI solutions services",
+    imageClassName: "w-48 lg:w-48",
+
+    background: "shapegrid",
+
+    button: {
+      text: "Contact Us",
+      href: "/contact-us",
+      icon: Phone,
+    },
+
+    theme: "light",
+  },
+
+  projectSinglePage: {
+    background: "shapegrid",
+    theme: "light",
+  },
   "data-center-services": {
     title: "Data Center Services",
     description:

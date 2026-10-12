@@ -16,23 +16,26 @@ const ServiceStepper = () => {
 
         <div className="flex lg:flex-row flex-col ">
           {STEPS.map((step, index) => (
-            <div key={step.id} className="flex flex-1 flex-col items-center justify-center align-center">
+            <div
+              key={step.id}
+              className="flex flex-1 flex-col items-center justify-start"
+            >
               <div className="flex w-full flex-col items-center lg:flex-row">
-              <div 
-  className={`w-px h-8 lg:w-auto lg:h-px lg:flex-1 border-l lg:border-l-0 lg:border-t border-[var(--brand-orange)] ${
-    index === 0 ? "invisible" : ""
-  }`} 
-/>
+                <div
+                  className={`w-px h-8 lg:w-auto lg:h-px lg:flex-1 border-l lg:border-l-0 lg:border-t border-[var(--brand-orange)] ${
+                    index === 0 ? "invisible" : ""
+                  }`}
+                />
 
                 <div className="flex size-10 shrink-0 items-center justify-center rounded-full border-2 border-[var(--brand-orange)] bg-white text-[length:var(--fs-h3)] text-[var(--brand-orange)]">
                   {step.id}
                 </div>
 
-                <div 
-  className={`w-px h-8 lg:w-auto lg:h-px lg:flex-1 border-l lg:border-l-0 lg:border-t border-[var(--brand-orange)] ${
-    index === STEPS.length - 1 ? "lg:invisible" : ""
-  }`}
-/>
+                <div
+                  className={`w-px h-8 lg:w-auto lg:h-px lg:flex-1 border-l lg:border-l-0 lg:border-t border-[var(--brand-orange)] ${
+                    index === STEPS.length - 1 ? "lg:invisible" : ""
+                  }`}
+                />
               </div>
 
               <div className="lg:mt-5 px-4 text-center w-64">

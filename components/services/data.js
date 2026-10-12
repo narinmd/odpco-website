@@ -12,6 +12,9 @@ import {
   CheckCheck,
   Spline,
   Bolt,
+  FolderCode,
+  Terminal,
+  BarChart,
 } from "lucide-react";
 
 export const SERVICES = [
@@ -155,6 +158,39 @@ export const SERVICES = [
         title: "Operational Readiness",
         description:
           "Infrastructure prepared for reliable operation, with the essential systems and components in place from day one.",
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    slug: "software-ai-services",
+    icon: FolderCode,
+    navLink: "Software",
+    navDescription: "Software development and AI solutions",
+    title: "Software & AI",
+    seoTitle: "Software & AI Solutions",
+    shortDescription:
+      "Develop custom enterprise software, optimize complex databases, and build powerful business intelligence solutions tailored to your needs",
+    description:
+      "We specialize in developing enterprise software and managing high-performance database environments. By combining Java development and web development with enterprise Database (SQL Server & Oracel) management, we build systems designed for reliability",
+    attributes: ["Custome Software", "AI Solutions", "Database Management"],
+    details: [
+      {
+        capabilitiesIcon: Terminal,
+        title: "Enterprise Software Development",
+        description:
+          "Design, develop, and maintain secure web-based applications using structured technologies.",
+      },
+      {
+        capabilitiesIcon: Database,
+        title: "Database Management & Optimization",
+        description: "Comprehensive administration for Database",
+      },
+      {
+        capabilitiesIcon: BarChart,
+        title: "Data Engineering",
+        description: "Scalable data warehouses and analytics systems.",
       },
     ],
   },

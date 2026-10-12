@@ -38,7 +38,7 @@ export async function submitConsultationForm(prevState, formData) {
 
     const mailOptions = {
       from: process.env.SMTP_USER,
-      to: "narinmadadi@gmail.com",
+      to: process.env.DESTINATION_EMAIL,
       replyTo: email,
       subject: `New Consultation Request from: ${fullName}`,
       html: `
